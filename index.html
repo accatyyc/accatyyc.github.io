@@ -5,7 +5,12 @@ cover: false
 about: 'about.html'
 ---
 
+{% if site.blog_cover %}
+<header class="main-header " style="background-image: url({{ site.blog_cover }})">
+{% else %}
 <header class="main-header no-cover">
+{% endif %}
+
     <nav class="main-nav overlay clearfix">
         <a class="subscribe-button icon-feed" href="http://my-ghost-blog.com/rss/">Subscribe</a>
     </nav>
@@ -29,7 +34,7 @@ about: 'about.html'
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
-<main class="content" role="main">
+<main id="content" class="content" role="main">
 
     {% for post in paginator.posts %}
 
