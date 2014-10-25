@@ -5,6 +5,7 @@
 .highlight .n { color: #ffffff } /* Name */
 .highlight .o { color: #ffffff } /* Operator */
 .highlight .p { color: #ffffff } /* Punctuation */
+.highlight .l { color: #ffc66d } /* @(  ) */
 .highlight .cm { color: #bc9458; font-style: italic } /* Comment.Multiline */
 .highlight .cp { color: #bc9458; font-style: italic } /* Comment.Preproc */
 .highlight .c1 { color: #bc9458; font-style: italic } /* Comment.Single */
@@ -25,7 +26,7 @@
 .highlight .ni { color: #ffffff } /* Name.Entity */
 .highlight .ne { color: #ffffff } /* Name.Exception */
 .highlight .nf { color: #ffc66d } /* Name.Function */
-.highlight .nl { color: #ffffff } /* Name.Label */
+.highlight .nl { color: #6d9cbe } /* Name.Label */
 .highlight .nn { color: #ffffff } /* Name.Namespace */
 .highlight .nx { color: #ffffff } /* Name.Other */
 .highlight .py { color: #ffffff } /* Name.Property */
@@ -48,7 +49,7 @@
 .highlight .sr { color: #a5c261 } /* Literal.String.Regex */
 .highlight .s1 { color: #a5c261 } /* Literal.String.Single */
 .highlight .ss { color: #a5c261 } /* Literal.String.Symbol */
-.highlight .bp { color: #ffffff } /* Name.Builtin.Pseudo */
+.highlight .bp { color: #cc7833 } /* Name.Builtin.Pseudo */
 .highlight .vc { color: #ffffff } /* Name.Variable.Class */
 .highlight .vg { color: #ffffff } /* Name.Variable.Global */
 .highlight .vi { color: #ffffff } /* Name.Variable.Instance */
