@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: accatyyc.github.io
+description: Softwhere?
+meta_description: "My thoughts on programming"
 #blog_cover: "/assets/images/blog_cover.jpg"
 
 markdown: redcarpet
@@ -8,5 +8,5 @@ highlighter: pygments
 logo: false
 paginate: 15
 
-url:            'http://0.0.0.0:4000'
-author:         'Your Name'
+url:            'http://accatyyc.github.io'
+author:         'Joel Ekström'
